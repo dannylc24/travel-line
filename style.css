@@ -1,0 +1,127 @@
+html,body { 
+  background: url(sunset.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: bold;
+  color: orange;
+}
+
+.container {
+  padding-top: 70px;
+  margin-right: 200px;
+}
+
+.col-12 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+} 
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: orange;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+ 
+.center {
+  text-align: center; 
+}
+
+h3 {
+  border-style: dashed;
+  border-color: orange;
+  border-width: 5px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+.row {
+  margin: 100px ;
+}
+
+h2 {
+  font-size: px;
+  color: white;
+}
+
+img {
+  border-style: solid;
+  border-width: 10px;
+  border-color: orange;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+footer {
+  background-color: grey;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 150px;
+}
+
+
